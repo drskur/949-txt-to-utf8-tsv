@@ -1,0 +1,8 @@
+[package]
+name = "tsv"
+version = "0.1.0"
+authors = ["drskur <drskur@me.com>"]
+edition = "2018"
+
+[dependencies]
+encoding = "0.2.33"
