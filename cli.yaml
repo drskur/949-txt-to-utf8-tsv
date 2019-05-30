@@ -1,0 +1,14 @@
+name: tsv-converter
+version: "0.1"
+author: drskur <drskur@me.com>
+args:
+  - FILE:
+      help: Sets the input file
+      required: true
+      index: 1
+  - OUTPUT:
+      short: o
+      long: output
+      takes_value: true
+      help: Sets the output file
+      required: true
